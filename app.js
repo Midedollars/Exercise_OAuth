@@ -17,5 +17,5 @@ app.get('/', (req, res)=>{
 })
 
 app.listen(PORT,()=>{
-    console.log(`listening on https://localhost:${2222}`)
+    console.log(`listening on https://localhost:${PORT}`)
 })
